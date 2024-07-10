@@ -16,11 +16,29 @@ import LogoSass from '/public/images/logos/icon-sass.svg';
 import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
 import LogoFigma from '/public/images/logos/icon-figma.svg';
 import LogoCypress from '/public/images/logos/icon-cypress.svg';
-import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
 import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 
+import IconAWS from '/public/images/logos/icon-aws.svg';
+import IconC from '/public/images/logos/icon-c.svg';
+import IconJava from '/public/images/logos/icon-java.svg';
+import IconSwift from '/public/images/logos/icon-swift.svg';
+import IconPython from '/public/images/logos/icon-python.svg';
+import IconPyTorch from '/public/images/logos/icon-pytorch.svg';
+import IconOracle from '/public/images/logos/icon-oracle.svg';
+import IconFirebase from '/public/images/logos/icon-firebase.svg';
+import IconR from '/public/images/logos/icon-r.svg';
+import IconCSS from '/public/images/logos/icon-css.svg';
+import IconHTML from '/public/images/logos/icon-html.svg';
+import IconSQL from '/public/images/logos/icon-sql.png';
+import IconTensorFlow from '/public/images/logos/icon-tensorflow.png';
+import IconNoSQL from '/public/images/logos/icon-nosql.png';
+import IconSpark from '/public/images/logos/icon-spark.png';
+import IconNetX from '/public/images/logos/icon-netx.png';
+
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
+import LogoUhoo from '/public/images/logos/logo-uhoo.jpeg';
+import LogoLavner from '/public/images/logos/logo-lavner.jpeg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
 import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
 import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
@@ -42,8 +60,8 @@ import {
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
+  GITHUB: 'https://github.com/sdberhane',
+  GITHUB_REPO: 'https://github.com/sdberhane/PersonalPortfolio',
   TWITTER: 'https://twitter.com/shahsagarm',
   FIGMA: 'https://www.figma.com/@shahsagarm',
   FIGMA_FILE:
@@ -56,12 +74,12 @@ export const NAV_LINKS = [
     href: '#about',
   },
   {
-    label: 'Work',
+    label: 'Projects',
     href: '#work',
   },
   {
-    label: 'Testimonials',
-    href: '#testimonials',
+    label: 'Experiece',
+    href: '#experience',
   },
   {
     label: 'Contact',
@@ -72,17 +90,48 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/shahsagarm',
+    url: 'https://github.com/sdberhane',
   },
   {
     icon: Twitter,
-    url: 'https://twitter.com/shahsagarm',
+    url: 'https://github.com/sdberhane/PersonalPortfolio',
   },
   {
     icon: Figma,
     url: 'https://www.figma.com/@shahsagarm',
   },
 ];
+
+// Technologies I know and will put in
+/*
+// Copilot pleas list out 1-24 in list format (leave out the actual content I will fill that in)
+Coding languages:
+1. Java
+2. Python
+3. JavaScript
+4. C
+5. Swift
+6. SQL
+7. R
+8. CSS
+9. HTML
+10. Ocaml
+11. React
+12. Next.js
+13. Node.js
+14. Express.js
+15. AWS
+16. Firebase
+17. MongoDB
+18. NoSQL
+19. Oracle
+20. PyTorch
+21. TensorFlow
+22. Apache Spark
+23. Figma
+24. Github
+*/
+
 
 export const TECHNOLOGIES: TechDetails[] = [
   {
@@ -91,8 +140,8 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
   },
   {
-    label: 'Typescript',
-    logo: LogoTypescript,
+    label: 'Python',
+    logo: IconPython,
     url: 'https://www.typescriptlang.org/',
   },
   {
@@ -117,19 +166,18 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://expressjs.com/',
   },
   {
-    label: 'Nest.js',
-    logo: LogoNest,
+    label: 'Java',
+    logo: IconJava,
     url: 'https://nestjs.com/',
   },
   {
-    label: 'Socket.io',
-    logo: LogoSocket,
-    darkModeLogo: LogoSocketLight,
+    label: 'C',
+    logo: IconC,
     url: 'https://socket.io/',
   },
   {
-    label: 'PostgreSQL',
-    logo: LogoPostgreSQL,
+    label: 'SQL',
+    logo: IconSQL,
     url: 'https://www.postgresql.org/',
   },
   {
@@ -138,13 +186,13 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://www.mongodb.com/',
   },
   {
-    label: 'Sass/Scss',
-    logo: LogoSass,
+    label: 'Swift',
+    logo: IconSwift,
     url: 'https://sass-lang.com/',
   },
   {
-    label: 'Tailwindcss',
-    logo: LogoTailwindcss,
+    label: 'R',
+    logo: IconR,
     url: 'https://tailwindcss.com/',
   },
   {
@@ -153,14 +201,13 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://www.figma.com/',
   },
   {
-    label: 'Cypress',
-    logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
+    label: 'CSS',
+    logo: IconCSS,
     url: 'https://www.cypress.io/',
   },
   {
-    label: 'Storybook',
-    logo: LogoStorybook,
+    label: 'HTML',
+    logo: IconHTML,
     url: 'https://storybook.js.org/',
   },
   {
@@ -168,43 +215,88 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoGit,
     url: 'https://git-scm.com/',
   },
+  {
+    label: 'AWS',
+    logo: IconAWS,
+    url: 'https://nestjs.com/',
+  },
+  {
+    label: 'Firebase',
+    logo: IconFirebase,
+    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+  },
+  {
+    label: 'NoSQL',
+    logo: IconNoSQL,
+    url: 'https://www.typescriptlang.org/',
+  },
+  {
+    label: 'Oracle',
+    logo: IconOracle,
+    url: 'https://react.dev/',
+  },
+  {
+    label: 'PyTorch',
+    logo: IconPyTorch,
+    url: 'https://nextjs.org/',
+  },
+  {
+    label: 'TensorFlow',
+    logo: IconTensorFlow,
+    url: 'https://nodejs.org/en',
+  },
+  {
+    label: 'NetworkX',
+    logo: IconNetX,
+    url: 'https://socket.io/',
+  },
+  {
+    label: 'Apache Spark',
+    logo: IconSpark,
+    url: 'https://expressjs.com/',
+  },
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoUpwork,
+    logo: LogoUhoo,
     logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
-    currentlyWorkHere: true,
+    position: 'Full Stack Software Developer',
+    startDate: new Date(2023, 4),
+    endDate: new Date(2023, 7),
     summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+      'Developed a map-based social media app serving as a review engine, using Swift for frontend and backend coding',
+      'Integrated location matching SDK to enhance user experience and engagement and utilized Google and Foursquare APIs',
+      'Accelerated development lifecycle from 75% to completion to successful beta release, setting stage for public launch and user acquisition',
+      'Teamed with design cohort using Figma to contribute to app\'s design and user interface',
+      'Resolved technical challenges, crafted innovative solutions. Conducted code reviews, ensuring code quality and adherence to best practices',
     ],
   },
   {
-    logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
+    logo: LogoLavner,
     logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
+    position: 'Software Engineer Intern',
+    startDate: new Date(2022, 4),
+    endDate: new Date(2022, 7),
     summary: [
-      'Acted as team lead in different projects.',
-      'Brainstormed new ideas & gathered requirements for internal projects.',
-      'Designed architecture of different projects (frontend + backend).',
-      'Worked on enterprise-level projects for a variety of clients.',
-      'Handled sprint planning & task distribution.',
+      'Engineered and optimized the deployment of 50+ computing systems, streamlining ops and achieving a 25% reduction in technical issues',
+      'Performed comprehensive software debugging and enhancements, improving application performance and user interface responsiveness',
+      'Revamped curriculum and instituted a version control protocol for educational software resulting in 50% surge in productivity',
     ],
   },
   {
     logo: LogoDotnpixel,
     darkModeLogo: LogoDotnpixelLight,
     logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
-    summary: ['Worked as a full stack developer (React / Laravel).'],
+    position: 'Programmer',
+    startDate: new Date(2017, 8),
+    endDate: new Date(2020, 4),
+    summary: [
+      'Designed and provided solutions to programming problems for a coding competition in Java and Python',
+      'Organized and planned the logistics of the competition (i.e. grouping, timing, presentation, etc.)',
+      'Synchronized code and design with 75+ programmers to create this event',
+      'Oversaw competition, provided answers, assisted with debugging/troubleshooting',
+    ],
   },
 ];
 

@@ -1,0 +1,1070 @@
+{
+  "ssrModuleMapping": {
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/avatar-dummy.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/avatar-dummy.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/avatar-eugen.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/avatar-eugen.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/avatar-krisztian.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/avatar-krisztian.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-aws.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-aws.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-c.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-c.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-css.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-css.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-express-light.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-express-light.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-express.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-express.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-figma.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-figma.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-firebase.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-firebase.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-git.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-git.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-html.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-html.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-java.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-java.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-javascript.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-javascript.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-mongodb.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-mongodb.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-netx.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-netx.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-nextjs.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-nextjs.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-nodejs.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-nodejs.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-nosql.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-nosql.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-oracle.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-oracle.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-python.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-python.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-pytorch.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-pytorch.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-r.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-r.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-react.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-react.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-spark.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-spark.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-sql.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-sql.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-swift.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-swift.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/icon-tensorflow.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/icon-tensorflow.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/logo-dotnpixel-light.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/logo-dotnpixel-light.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/logo-dotnpixel.svg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/logo-dotnpixel.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/logo-lavner.jpeg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/logo-lavner.jpeg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/logos/logo-uhoo.jpeg": {
+      "*": {
+        "id": "(sc_client)/./public/images/logos/logo-uhoo.jpeg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/project-fiskil.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/project-fiskil.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/project-pepehousing.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/project-pepehousing.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/project-wingie.png": {
+      "*": {
+        "id": "(sc_client)/./public/images/project-wingie.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/script.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/general/button.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/general/button.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/general/download-cv.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/general/download-cv.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/general/theme-switcher.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/general/theme-switcher.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/layout/header.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/layout/header.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/lib/providers.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/lib/providers.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/headshot.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/images/headshot.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/sagar-full-pose.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/images/sagar-full-pose.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/data-display/image-wrapper.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/data-display/image-wrapper.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/data-display/social-icons.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/data-display/social-icons.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/data-display/tech-details.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/data-display/tech-details.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/sections/contact.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/sections/contact.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    }
+  },
+  "edgeSSRModuleMapping": {},
+  "clientModules": {
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/client/components/redirect-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/shared/lib/app-router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "*",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/avatar-dummy.svg": {
+      "id": "(app-client)/./public/images/avatar-dummy.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/avatar-eugen.png": {
+      "id": "(app-client)/./public/images/avatar-eugen.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/avatar-krisztian.png": {
+      "id": "(app-client)/./public/images/avatar-krisztian.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-aws.svg": {
+      "id": "(app-client)/./public/images/logos/icon-aws.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-c.svg": {
+      "id": "(app-client)/./public/images/logos/icon-c.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-css.svg": {
+      "id": "(app-client)/./public/images/logos/icon-css.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-express-light.svg": {
+      "id": "(app-client)/./public/images/logos/icon-express-light.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-express.svg": {
+      "id": "(app-client)/./public/images/logos/icon-express.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-figma.svg": {
+      "id": "(app-client)/./public/images/logos/icon-figma.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-firebase.svg": {
+      "id": "(app-client)/./public/images/logos/icon-firebase.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-git.svg": {
+      "id": "(app-client)/./public/images/logos/icon-git.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-html.svg": {
+      "id": "(app-client)/./public/images/logos/icon-html.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-java.svg": {
+      "id": "(app-client)/./public/images/logos/icon-java.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-javascript.svg": {
+      "id": "(app-client)/./public/images/logos/icon-javascript.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-mongodb.svg": {
+      "id": "(app-client)/./public/images/logos/icon-mongodb.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-netx.png": {
+      "id": "(app-client)/./public/images/logos/icon-netx.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-nextjs.svg": {
+      "id": "(app-client)/./public/images/logos/icon-nextjs.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-nodejs.svg": {
+      "id": "(app-client)/./public/images/logos/icon-nodejs.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-nosql.png": {
+      "id": "(app-client)/./public/images/logos/icon-nosql.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-oracle.svg": {
+      "id": "(app-client)/./public/images/logos/icon-oracle.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-python.svg": {
+      "id": "(app-client)/./public/images/logos/icon-python.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-pytorch.svg": {
+      "id": "(app-client)/./public/images/logos/icon-pytorch.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-r.svg": {
+      "id": "(app-client)/./public/images/logos/icon-r.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-react.svg": {
+      "id": "(app-client)/./public/images/logos/icon-react.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-spark.png": {
+      "id": "(app-client)/./public/images/logos/icon-spark.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-sql.png": {
+      "id": "(app-client)/./public/images/logos/icon-sql.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-swift.svg": {
+      "id": "(app-client)/./public/images/logos/icon-swift.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/icon-tensorflow.png": {
+      "id": "(app-client)/./public/images/logos/icon-tensorflow.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/logo-dotnpixel-light.svg": {
+      "id": "(app-client)/./public/images/logos/logo-dotnpixel-light.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/logo-dotnpixel.svg": {
+      "id": "(app-client)/./public/images/logos/logo-dotnpixel.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/logo-lavner.jpeg": {
+      "id": "(app-client)/./public/images/logos/logo-lavner.jpeg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/logos/logo-uhoo.jpeg": {
+      "id": "(app-client)/./public/images/logos/logo-uhoo.jpeg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/project-fiskil.png": {
+      "id": "(app-client)/./public/images/project-fiskil.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/project-pepehousing.png": {
+      "id": "(app-client)/./public/images/project-pepehousing.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/project-wingie.png": {
+      "id": "(app-client)/./public/images/project-wingie.png",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/client/script.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/client/script.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/general/button.tsx": {
+      "id": "(app-client)/./src/components/general/button.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/general/download-cv.tsx": {
+      "id": "(app-client)/./src/components/general/download-cv.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/general/theme-switcher.tsx": {
+      "id": "(app-client)/./src/components/general/theme-switcher.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/layout/header.tsx": {
+      "id": "(app-client)/./src/components/layout/header.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/lib/providers.tsx": {
+      "id": "(app-client)/./src/lib/providers.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/headshot.jpg": {
+      "id": "(app-client)/./public/images/headshot.jpg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/sagar-full-pose.jpg": {
+      "id": "(app-client)/./public/images/sagar-full-pose.jpg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/data-display/image-wrapper.tsx": {
+      "id": "(app-client)/./src/components/data-display/image-wrapper.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/data-display/social-icons.tsx": {
+      "id": "(app-client)/./src/components/data-display/social-icons.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/data-display/tech-details.tsx": {
+      "id": "(app-client)/./src/components/data-display/tech-details.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/sections/contact.tsx": {
+      "id": "(app-client)/./src/components/sections/contact.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    }
+  },
+  "entryCSSFiles": {
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/app/layout": {
+      "modules": [
+        "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/app/globals.css",
+        "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+      ],
+      "files": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/app/page": {
+      "modules": [],
+      "files": []
+    }
+  }
+}

@@ -9,7 +9,7 @@ import Footer from '@/components/layout/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Sagar Shah | Full Stack Developer From Ahmedabad, India.';
+const title = 'Selassie Berhane';
 const description =
   'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.';
 const url = 'https://sagarshah.dev';
@@ -23,8 +23,10 @@ export const metadata: Metadata = {
     'Full Stack Developer',
     'React Developer',
     'Next.js Developer',
+    'Software Engineer',
+    'Software Developer',
   ],
-  creator: 'Sagar Shah',
+  creator: 'Selassie Berhane',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
