@@ -11,7 +11,7 @@ const HeroSection = () => {
     <Container id="hero">
       <div className="flex flex-col gap-12 md:flex-row">
         {/* Image */}
-        <div className="flex items-center justify-center md:order-last md:flex-grow md:justify-end">
+        {/* <div className="flex items-center justify-center md:order-last md:flex-grow md:justify-end">
           <div className="relative h-[300px] w-[280px] md:h-[360px] md:w-[320px]">
             <Image
               src={Headshot}
@@ -21,21 +21,19 @@ const HeroSection = () => {
             ></Image>
             <div className="absolute h-[280px] w-[280px] border-8 border-transparent bg-gray-200 max-md:top-5 md:bottom-0 md:right-0 md:h-[320px] md:w-[280px]"></div>
           </div>
-        </div>
+        </div> */}
 
         {/* Content */}
         <div className="flex max-w-3xl flex-grow flex-col justify-center gap-8 md:order-first md:items-start md:justify-center 2xl:gap-12">
           <div className="flex flex-col gap-2">
             <Typography variant="h1">
               Selassie Berhane
-              <span className="inline-block animate-waving-hand">👋</span>
+            </Typography>
+            <Typography variant="subtitle">
+              University of Pennsylvania Class of 2024
             </Typography>
             <Typography>
-              I&apos;m a full stack developer (React.js & Node.js) with a focus
-              on creating (and occasionally designing) exceptional digital
-              experiences that are fast, accessible, visually appealing, and
-              responsive. Even though I have been creating web applications for
-              over 7 years, I still love it as if it was something new.
+              Computer Science BSE | Economics Minor
             </Typography>
           </div>
           <div className="flex flex-col gap-2">

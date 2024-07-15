@@ -8,6 +8,7 @@ export type TechDetails = {
 };
 
 export type ExperienceDetails = {
+  company: string;
   logo: string | StaticImageData;
   darkModeLogo?: string | StaticImageData;
   logoAlt: string;

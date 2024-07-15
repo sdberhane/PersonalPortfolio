@@ -1,22 +1,14 @@
-import { Github, Twitter, Figma } from 'lucide-react';
+import { Github, Twitter, Figma, Linkedin, Mail } from 'lucide-react';
 
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
-import LogoTypescript from '/public/images/logos/icon-typescript.svg';
 import LogoReact from '/public/images/logos/icon-react.svg';
 import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
 import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
 import LogoExpress from '/public/images/logos/icon-express.svg';
 import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoNest from '/public/images/logos/icon-nest.svg';
-import LogoSocket from '/public/images/logos/icon-socket.svg';
-import LogoSocketLight from '/public/images/logos/icon-socket-light.svg';
 import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
 import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
-import LogoSass from '/public/images/logos/icon-sass.svg';
-import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
 import LogoFigma from '/public/images/logos/icon-figma.svg';
-import LogoCypress from '/public/images/logos/icon-cypress.svg';
-import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 
 import IconAWS from '/public/images/logos/icon-aws.svg';
@@ -36,13 +28,9 @@ import IconNoSQL from '/public/images/logos/icon-nosql.png';
 import IconSpark from '/public/images/logos/icon-spark.png';
 import IconNetX from '/public/images/logos/icon-netx.png';
 
-import LogoUpwork from '/public/images/logos/logo-upwork.svg';
+import LogoLM from '/public/images/logos/logo-lm.jpeg';
 import LogoUhoo from '/public/images/logos/logo-uhoo.jpeg';
 import LogoLavner from '/public/images/logos/logo-lavner.jpeg';
-import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
-import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
-import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
-import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
 
 import ProjectFiskil from '/public/images/project-fiskil.png';
 import ProjectWingie from '/public/images/project-wingie.png';
@@ -66,6 +54,8 @@ export const EXTERNAL_LINKS = {
   FIGMA: 'https://www.figma.com/@shahsagarm',
   FIGMA_FILE:
     'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
+  LETTERBOXD: 'https://letterboxd.com/sdberhane6/',
+  BELI: 'https://beliapp.co/app/selassieberhane',
 };
 
 export const NAV_LINKS = [
@@ -93,12 +83,12 @@ export const SOCIAL_LINKS = [
     url: 'https://github.com/sdberhane',
   },
   {
-    icon: Twitter,
-    url: 'https://github.com/sdberhane/PersonalPortfolio',
+    icon: Linkedin,
+    url: 'https://www.linkedin.com/in/selassie-berhane',
   },
   {
-    icon: Figma,
-    url: 'https://www.figma.com/@shahsagarm',
+    icon: Mail,
+    url: 'mailto:sberhane@seas.upenn.edu',
   },
 ];
 
@@ -134,131 +124,35 @@ Coding languages:
 
 
 export const TECHNOLOGIES: TechDetails[] = [
-  {
-    label: 'Javascript',
-    logo: LogoJavascript,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-  },
-  {
-    label: 'Python',
-    logo: IconPython,
-    url: 'https://www.typescriptlang.org/',
-  },
-  {
-    label: 'React',
-    logo: LogoReact,
-    url: 'https://react.dev/',
-  },
-  {
-    label: 'Next.js',
-    logo: LogoNextjs,
-    url: 'https://nextjs.org/',
-  },
-  {
-    label: 'Node.js',
-    logo: LogoNodejs,
-    url: 'https://nodejs.org/en',
-  },
-  {
-    label: 'Express.js',
-    logo: LogoExpress,
-    darkModeLogo: LogoExpressLight,
-    url: 'https://expressjs.com/',
-  },
-  {
-    label: 'Java',
-    logo: IconJava,
-    url: 'https://nestjs.com/',
-  },
-  {
-    label: 'C',
-    logo: IconC,
-    url: 'https://socket.io/',
-  },
-  {
-    label: 'SQL',
-    logo: IconSQL,
-    url: 'https://www.postgresql.org/',
-  },
-  {
-    label: 'MongoDB',
-    logo: LogoMongoDB,
-    url: 'https://www.mongodb.com/',
-  },
-  {
-    label: 'Swift',
-    logo: IconSwift,
-    url: 'https://sass-lang.com/',
-  },
-  {
-    label: 'R',
-    logo: IconR,
-    url: 'https://tailwindcss.com/',
-  },
-  {
-    label: 'Figma',
-    logo: LogoFigma,
-    url: 'https://www.figma.com/',
-  },
-  {
-    label: 'CSS',
-    logo: IconCSS,
-    url: 'https://www.cypress.io/',
-  },
-  {
-    label: 'HTML',
-    logo: IconHTML,
-    url: 'https://storybook.js.org/',
-  },
-  {
-    label: 'Git',
-    logo: LogoGit,
-    url: 'https://git-scm.com/',
-  },
-  {
-    label: 'AWS',
-    logo: IconAWS,
-    url: 'https://nestjs.com/',
-  },
-  {
-    label: 'Firebase',
-    logo: IconFirebase,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-  },
-  {
-    label: 'NoSQL',
-    logo: IconNoSQL,
-    url: 'https://www.typescriptlang.org/',
-  },
-  {
-    label: 'Oracle',
-    logo: IconOracle,
-    url: 'https://react.dev/',
-  },
-  {
-    label: 'PyTorch',
-    logo: IconPyTorch,
-    url: 'https://nextjs.org/',
-  },
-  {
-    label: 'TensorFlow',
-    logo: IconTensorFlow,
-    url: 'https://nodejs.org/en',
-  },
-  {
-    label: 'NetworkX',
-    logo: IconNetX,
-    url: 'https://socket.io/',
-  },
-  {
-    label: 'Apache Spark',
-    logo: IconSpark,
-    url: 'https://expressjs.com/',
-  },
+  { label: 'Javascript', logo: LogoJavascript, url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
+  { label: 'Python', logo: IconPython, url: 'https://www.typescriptlang.org/' },
+  { label: 'React', logo: LogoReact, url: 'https://react.dev/' },
+  { label: 'Next.js', logo: LogoNextjs, url: 'https://nextjs.org/' },
+  { label: 'Node.js', logo: LogoNodejs, url: 'https://nodejs.org/en' },
+  { label: 'Express.js', logo: LogoExpress, darkModeLogo: LogoExpressLight, url: 'https://expressjs.com/' },
+  { label: 'Java', logo: IconJava, url: 'https://nestjs.com/' },
+  { label: 'C', logo: IconC, url: 'https://socket.io/' },
+  { label: 'SQL', logo: IconSQL, url: 'https://www.postgresql.org/' },
+  { label: 'MongoDB', logo: LogoMongoDB, url: 'https://www.mongodb.com/' },
+  { label: 'Swift', logo: IconSwift, url: 'https://sass-lang.com/' },
+  { label: 'R', logo: IconR, url: 'https://tailwindcss.com/' },
+  { label: 'Figma', logo: LogoFigma, url: 'https://www.figma.com/' },
+  { label: 'CSS', logo: IconCSS, url: 'https://www.cypress.io/' },
+  { label: 'HTML', logo: IconHTML, url: 'https://storybook.js.org/' },
+  { label: 'Git', logo: LogoGit, url: 'https://git-scm.com/' },
+  { label: 'AWS', logo: IconAWS, url: 'https://nestjs.com/' },
+  { label: 'Firebase', logo: IconFirebase, url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
+  { label: 'NoSQL', logo: IconNoSQL, url: 'https://www.typescriptlang.org/' },
+  { label: 'Oracle', logo: IconOracle, url: 'https://react.dev/' },
+  { label: 'PyTorch', logo: IconPyTorch, url: 'https://nextjs.org/' },
+  { label: 'TensorFlow', logo: IconTensorFlow, url: 'https://nodejs.org/en' },
+  { label: 'NetworkX', logo: IconNetX, url: 'https://socket.io/' },
+  { label: 'Apache Spark', logo: IconSpark, url: 'https://expressjs.com/' },
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
+    company: 'Uhoo!',
     logo: LogoUhoo,
     logoAlt: 'Upwork logo',
     position: 'Full Stack Software Developer',
@@ -273,6 +167,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     ],
   },
   {
+    company: 'Lavner Education',
     logo: LogoLavner,
     logoAlt: 'Greenapex logo',
     position: 'Software Engineer Intern',
@@ -285,8 +180,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
     ],
   },
   {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
+    company: ' CodeLM',
+    logo: LogoLM,
     logoAlt: 'Dotnpixel logo',
     position: 'Programmer',
     startDate: new Date(2017, 8),
@@ -302,9 +197,9 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Wingie',
+    name: 'PassR',
     description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
+      'A computer vision model that takes broadcasted soccer games and generates passing networks for each team, providing insights into team strategies and player performance.',
     url: 'https://www.wingie.com',
     previewImage: ProjectWingie,
     technologies: [
@@ -319,29 +214,109 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
   {
-    name: 'Fiskil',
+    name: 'Instalite',
     description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
+      'A social media platform that allows ',
     url: 'https://fiskil.com.au',
     previewImage: ProjectFiskil,
     technologies: [
       'React',
       'Next.js',
+      'Tailwindcss',
+      'Javascript',
+      'SQL',
+      'MySQL',
+      'Apache Kafka',
+      'Apache Spark',
+      'Amazon EC2',
+      'S3',
+      'ChromaDB',
+      'Amazon RDS',
+      'CSS',
+    ],
+  },
+  {
+    name: 'Review Roam',
+    description:
+      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
+    url: 'https://pepehousing.com',
+    previewImage: ProjectPepehousing,
+    technologies: [
+      'React',
+      'Next.js',
       'Typescript',
       'Tailwindcss',
-      'Material UI',
       'Redux Toolkit',
       'React Query',
-      'Express.js',
-      'PostgreSQL',
-      'Firebase',
-      'AWS Amplify',
-      'Cypress',
       'Storybook',
     ],
   },
   {
-    name: 'Pepehousing',
+    name: 'ReVision',
+    description:
+      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
+    url: 'https://pepehousing.com',
+    previewImage: ProjectPepehousing,
+    technologies: [
+      'React',
+      'Next.js',
+      'Typescript',
+      'Tailwindcss',
+      'Redux Toolkit',
+      'React Query',
+      'Storybook',
+    ],
+  },
+  {
+    name: 'AI Snake',
+    description:
+      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
+    url: 'https://pepehousing.com',
+    previewImage: ProjectPepehousing,
+    technologies: [
+      'React',
+      'Next.js',
+      'Typescript',
+      'Tailwindcss',
+      'Redux Toolkit',
+      'React Query',
+      'Storybook',
+    ],
+  },
+  {
+    name: 'PennOS',
+    description:
+      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
+    url: 'https://pepehousing.com',
+    previewImage: ProjectPepehousing,
+    technologies: [
+      'React',
+      'Next.js',
+      'Typescript',
+      'Tailwindcss',
+      'Redux Toolkit',
+      'React Query',
+      'Storybook',
+    ],
+  },
+  {
+    name: 'Chess',
+    description:
+      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
+    url: 'https://pepehousing.com',
+    previewImage: ProjectPepehousing,
+    technologies: [
+      'React',
+      'Next.js',
+      'Typescript',
+      'Tailwindcss',
+      'Redux Toolkit',
+      'React Query',
+      'Storybook',
+    ],
+  },
+  {
+    name: 'Maze and Pathfinding Visualizer',
     description:
       'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
     url: 'https://pepehousing.com',

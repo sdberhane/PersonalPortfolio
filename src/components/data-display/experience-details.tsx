@@ -9,6 +9,7 @@ const dateFormatOptions: Intl.DateTimeFormatOptions = {
 };
 
 const ExperienceDetails = ({
+  company,
   logo,
   darkModeLogo,
   logoAlt,
@@ -25,8 +26,11 @@ const ExperienceDetails = ({
           src={logo}
           srcForDarkMode={darkModeLogo}
           alt={logoAlt}
-          className="max-w-[120px]"
+          className="max-w-[35px]"
         />
+        <Typography variant="subtitle" className="text-gray-700 md:text-left">
+          {company}
+        </Typography>
       </div>
       <div className="flex flex-col gap-4 max-md:order-3 md:w-2/4">
         <Typography variant="subtitle" className="font-semibold text-gray-900">
