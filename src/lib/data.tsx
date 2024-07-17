@@ -6,7 +6,6 @@ import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
 import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
 import LogoExpress from '/public/images/logos/icon-express.svg';
 import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
 import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
 import LogoFigma from '/public/images/logos/icon-figma.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
@@ -32,7 +31,6 @@ import LogoLM from '/public/images/logos/logo-lm.jpeg';
 import LogoUhoo from '/public/images/logos/logo-uhoo.jpeg';
 import LogoLavner from '/public/images/logos/logo-lavner.jpeg';
 
-import ProjectFiskil from '/public/images/project-fiskil.png';
 import ProjectWingie from '/public/images/project-wingie.png';
 import ProjectPepehousing from '/public/images/project-pepehousing.png';
 
@@ -52,8 +50,8 @@ import {
 export const EXTERNAL_LINKS = {
   GITHUB: 'https://github.com/sdberhane',
   GITHUB_REPO: 'https://github.com/sdberhane/PersonalPortfolio',
-  TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
+  TWITTER: '',
+  FIGMA: '',
   FIGMA_FILE:
     'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
   LETTERBOXD: 'https://letterboxd.com/sdberhane6/',
@@ -202,7 +200,7 @@ export const PROJECTS: ProjectDetails[] = [
     name: 'PassR',
     description:
       'A computer vision model that takes broadcasted soccer games and generates passing networks for each team, providing insights into team strategies and player performance.',
-    url: 'https://www.wingie.com',
+    url: '',
     previewImage: ProjectWingie,
     technologies: [
       'React',
@@ -240,8 +238,8 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Review Roam',
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
+      '',
+    url: '',
     previewImage: ProjectPepehousing,
     technologies: [
       'React',
@@ -256,8 +254,8 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'ReVision',
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
+      '',
+    url: '',
     previewImage: ProjectPepehousing,
     technologies: [
       'React',
@@ -272,8 +270,8 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'AI Snake',
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
+      '',
+    url: '',
     previewImage: ProjectPepehousing,
     technologies: [
       'React',
@@ -288,8 +286,8 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'PennOS',
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
+      '',
+    url: '',
     previewImage: ProjectPepehousing,
     technologies: [
       'React',
@@ -304,8 +302,8 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Chess',
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
+      '',
+    url: '',
     previewImage: ProjectPepehousing,
     technologies: [
       'React',
@@ -320,8 +318,8 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Maze and Pathfinding Visualizer',
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
+      '',
+    url: '',
     previewImage: ProjectPepehousing,
     technologies: [
       'React',
@@ -341,20 +339,20 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     personAvatar: AvatarKrisztian,
     title: 'Founder - inboxgenie.io',
     testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
+      '',
   },
   {
     personName: 'Eugen Esanu',
     personAvatar: AvatarEugen,
     title: 'Founder - shosho.design',
     testimonial:
-      'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
+      '',
   },
   {
     personName: 'Joe Matkin',
     personAvatar: AvatarDummy,
     title: 'Freelancer',
     testimonial:
-      'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+      '',
   },
 ];

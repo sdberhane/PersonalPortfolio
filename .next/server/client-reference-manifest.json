@@ -88,14 +88,6 @@
         "async": false
       }
     },
-    "(app-client)/./public/images/headshot.jpg": {
-      "*": {
-        "id": "(sc_client)/./public/images/headshot.jpg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./public/images/logos/icon-aws.svg": {
       "*": {
         "id": "(sc_client)/./public/images/logos/icon-aws.svg",
@@ -336,65 +328,9 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/page.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/data-display/image-wrapper.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/data-display/image-wrapper.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/data-display/social-icons.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/data-display/social-icons.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/data-display/tech-details.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/data-display/tech-details.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/sections/contact.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/sections/contact.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -443,6 +379,70 @@
     "(app-client)/./src/lib/providers.tsx": {
       "*": {
         "id": "(sc_client)/./src/lib/providers.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./public/images/headshot.jpg": {
+      "*": {
+        "id": "(sc_client)/./public/images/headshot.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/data-display/image-wrapper.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/data-display/image-wrapper.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/data-display/social-icons.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/data-display/social-icons.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/data-display/tech-details.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/data-display/tech-details.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/sections/contact.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/sections/contact.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -615,7 +615,7 @@
       "id": "(app-client)/./public/images/avatar-dummy.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -623,7 +623,7 @@
       "id": "(app-client)/./public/images/avatar-eugen.png",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -631,20 +631,12 @@
       "id": "(app-client)/./public/images/avatar-krisztian.png",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
     "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/cc-profile.jpeg": {
       "id": "(app-client)/./public/images/cc-profile.jpeg",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/headshot.jpg": {
-      "id": "(app-client)/./public/images/headshot.jpg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -655,7 +647,7 @@
       "id": "(app-client)/./public/images/logos/icon-aws.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -663,7 +655,7 @@
       "id": "(app-client)/./public/images/logos/icon-c.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -671,7 +663,7 @@
       "id": "(app-client)/./public/images/logos/icon-css.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -679,7 +671,7 @@
       "id": "(app-client)/./public/images/logos/icon-express-light.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -687,7 +679,7 @@
       "id": "(app-client)/./public/images/logos/icon-express.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -695,7 +687,7 @@
       "id": "(app-client)/./public/images/logos/icon-figma.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -703,7 +695,7 @@
       "id": "(app-client)/./public/images/logos/icon-firebase.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -711,7 +703,7 @@
       "id": "(app-client)/./public/images/logos/icon-git.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -719,7 +711,7 @@
       "id": "(app-client)/./public/images/logos/icon-html.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -727,7 +719,7 @@
       "id": "(app-client)/./public/images/logos/icon-java.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -735,7 +727,7 @@
       "id": "(app-client)/./public/images/logos/icon-javascript.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -743,7 +735,7 @@
       "id": "(app-client)/./public/images/logos/icon-mongodb.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -751,7 +743,7 @@
       "id": "(app-client)/./public/images/logos/icon-netx.png",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -759,7 +751,7 @@
       "id": "(app-client)/./public/images/logos/icon-nextjs.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -767,7 +759,7 @@
       "id": "(app-client)/./public/images/logos/icon-nodejs.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -775,7 +767,7 @@
       "id": "(app-client)/./public/images/logos/icon-nosql.png",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -783,7 +775,7 @@
       "id": "(app-client)/./public/images/logos/icon-oracle.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -791,7 +783,7 @@
       "id": "(app-client)/./public/images/logos/icon-python.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -799,7 +791,7 @@
       "id": "(app-client)/./public/images/logos/icon-pytorch.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -807,7 +799,7 @@
       "id": "(app-client)/./public/images/logos/icon-r.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -815,7 +807,7 @@
       "id": "(app-client)/./public/images/logos/icon-react.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -823,7 +815,7 @@
       "id": "(app-client)/./public/images/logos/icon-spark.png",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -831,7 +823,7 @@
       "id": "(app-client)/./public/images/logos/icon-sql.png",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -839,7 +831,7 @@
       "id": "(app-client)/./public/images/logos/icon-swift.svg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -847,7 +839,7 @@
       "id": "(app-client)/./public/images/logos/icon-tensorflow.png",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -855,7 +847,7 @@
       "id": "(app-client)/./public/images/logos/logo-lavner.jpeg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -863,7 +855,7 @@
       "id": "(app-client)/./public/images/logos/logo-lm.jpeg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -871,7 +863,7 @@
       "id": "(app-client)/./public/images/logos/logo-uhoo.jpeg",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -879,28 +871,12 @@
       "id": "(app-client)/./public/images/project-pepehousing.png",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
     "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/project-wingie.png": {
       "id": "(app-client)/./public/images/project-wingie.png",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -911,68 +887,12 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
     "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/client/link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/app/page.tsx": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/data-display/image-wrapper.tsx": {
-      "id": "(app-client)/./src/components/data-display/image-wrapper.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/data-display/social-icons.tsx": {
-      "id": "(app-client)/./src/components/data-display/social-icons.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/data-display/tech-details.tsx": {
-      "id": "(app-client)/./src/components/data-display/tech-details.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/sections/contact.tsx": {
-      "id": "(app-client)/./src/components/sections/contact.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -1034,13 +954,89 @@
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/headshot.jpg": {
+      "id": "(app-client)/./public/images/headshot.jpg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/app/page.tsx": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/data-display/image-wrapper.tsx": {
+      "id": "(app-client)/./src/components/data-display/image-wrapper.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/data-display/social-icons.tsx": {
+      "id": "(app-client)/./src/components/data-display/social-icons.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/data-display/tech-details.tsx": {
+      "id": "(app-client)/./src/components/data-display/tech-details.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/components/sections/contact.tsx": {
+      "id": "(app-client)/./src/components/sections/contact.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/app/page": {
-      "modules": [],
-      "files": []
-    },
     "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/app/layout": {
       "modules": [
         "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/app/globals.css",
@@ -1049,6 +1045,10 @@
       "files": [
         "static/css/app/layout.css"
       ]
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/app/page": {
+      "modules": [],
+      "files": []
     }
   }
 }
