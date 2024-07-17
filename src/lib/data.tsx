@@ -36,6 +36,8 @@ import ProjectFiskil from '/public/images/project-fiskil.png';
 import ProjectWingie from '/public/images/project-wingie.png';
 import ProjectPepehousing from '/public/images/project-pepehousing.png';
 
+import ccProfile from '/public/images/cc-profile.jpeg';
+
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
 import AvatarEugen from '/public/images/avatar-eugen.png';
 import AvatarDummy from '/public/images/avatar-dummy.svg';
@@ -216,9 +218,9 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Instalite',
     description:
-      'A social media platform that allows ',
-    url: 'https://fiskil.com.au',
-    previewImage: ProjectFiskil,
+      'A social media platform geared towards cinema lovers that allows for connecting and real time chatting with friends, sharing reviews, and discovering new movies through an NLP search model. The app also features social news streaming with Apache Kafka, adsorption ranking of posts and personalized friend reccomendations with Apache Spark, as well as a unique feature that matches user profile pictures to similar actors using ChromaDB embeddings.',
+    url: '/files/InstaliteReport.pdf',
+    previewImage: ccProfile,
     technologies: [
       'React',
       'Next.js',

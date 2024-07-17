@@ -80,6 +80,14 @@
         "async": false
       }
     },
+    "(app-client)/./public/images/cc-profile.jpeg": {
+      "*": {
+        "id": "(sc_client)/./public/images/cc-profile.jpeg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./public/images/headshot.jpg": {
       "*": {
         "id": "(sc_client)/./public/images/headshot.jpg",
@@ -312,14 +320,6 @@
         "async": false
       }
     },
-    "(app-client)/./public/images/project-fiskil.png": {
-      "*": {
-        "id": "(sc_client)/./public/images/project-fiskil.png",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./public/images/project-pepehousing.png": {
       "*": {
         "id": "(sc_client)/./public/images/project-pepehousing.png",
@@ -355,6 +355,14 @@
     "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -627,6 +635,14 @@
       ],
       "async": false
     },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/cc-profile.jpeg": {
+      "id": "(app-client)/./public/images/cc-profile.jpeg",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/headshot.jpg": {
       "id": "(app-client)/./public/images/headshot.jpg",
       "name": "*",
@@ -859,14 +875,6 @@
       ],
       "async": false
     },
-    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/project-fiskil.png": {
-      "id": "(app-client)/./public/images/project-fiskil.png",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/public/images/project-pepehousing.png": {
       "id": "(app-client)/./public/images/project-pepehousing.png",
       "name": "*",
@@ -925,6 +933,14 @@
     },
     "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/dist/esm/shared/lib/head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/app/page.tsx": {
+      "id": "(app-client)/./src/app/page.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -1028,7 +1044,7 @@
     "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/app/layout": {
       "modules": [
         "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/src/app/globals.css",
-        "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+        "/Users/selassieberhane/Desktop/Projects/PersonalPortfolio/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Source_Serif_4\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"300\",\"700\"]}],\"variableName\":\"inter\"}"
       ],
       "files": [
         "static/css/app/layout.css"

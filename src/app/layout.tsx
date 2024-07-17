@@ -1,5 +1,5 @@
 import Script from 'next/script';
-import { Inter } from 'next/font/google';
+import { Lato, Roboto, Inter, Source_Serif_4, Antic_Slab } from 'next/font/google';
 import { Metadata } from 'next';
 
 import './globals.css';
@@ -7,7 +7,11 @@ import Header from '@/components/layout/header';
 import { Providers } from '@/lib/providers';
 import Footer from '@/components/layout/footer';
 
-const inter = Inter({ subsets: ['latin'] });
+// const inter = Inter({ subsets: ['latin'] });
+// const inter = Roboto({ subsets: ['latin'], weight: ['400', '500', '700'] }); // Adjust weights as needed
+//const inter = Lato({ subsets: ['latin'], weight: ['400', '700'] });
+//const inter = Questrial({ subsets: ['latin'], weight: ['400']});
+const inter = Source_Serif_4({ subsets: ['latin'], weight: ['300', '700'] });
 
 const title = 'Selassie Berhane';
 const description =
